@@ -1,10 +1,28 @@
 read -p "Quieres usar en este proyecto? |y| |n|:" expression
 
-if (($expression == "y" ))
-  then
-   echo "estas accetando la condicion"
-   else 
-    echo "estas rechasando la condicion"
-fi 
+# if (( $expression = "n" )) # la condiccion esta funcionan como debe 
+#   then
+#    echo "no"
+#    else 
+#     echo "si"
+# fi 
 
-#tenemos que usolucionar el problema de comparaccion entre un string y valor de consola 
+
+case $expression in 
+
+y) 
+
+echo entoces quieres usar control de versiones en este proyecto
+./control/git.sh 
+;;
+
+n)
+
+echo entoces no quieres usar control de versiones 
+
+;;
+
+esac
+
+
+#tenemos que solucionar el problema de comparaccion entre un string y valor de consola 
