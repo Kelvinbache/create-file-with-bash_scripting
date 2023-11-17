@@ -1,12 +1,6 @@
+#! /bin/bash
+
 read -p "Quieres usar en este proyecto? |y| |n|:" expression
-
-# if (( $expression = "n" )) # la condiccion esta funcionan como debe 
-#   then
-#    echo "no"
-#    else 
-#     echo "si"
-# fi 
-
 
 case $expression in 
 

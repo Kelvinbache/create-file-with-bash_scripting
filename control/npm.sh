@@ -2,6 +2,8 @@
 
 echo ahora vamos a iniciar con npm 
 
+cd $file
+
 npm init 
 
 
