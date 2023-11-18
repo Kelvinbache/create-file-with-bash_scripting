@@ -6,5 +6,6 @@ cd $file
 
 npm init 
 
-
-echo gracias por usar el control de versiones 
+echo  -----------------------------------------
+echo "|"gracias por usar el control de versiones"|"
+echo  -----------------------------------------
