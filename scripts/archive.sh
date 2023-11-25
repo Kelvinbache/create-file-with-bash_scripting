@@ -13,3 +13,4 @@ read -p "name of archive:" archive
 ./control/condition.sh
 
 ## nueva funcioalidad que nos permita, hacer una comprobacion a los archivos
+
