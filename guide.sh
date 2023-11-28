@@ -3,10 +3,10 @@
 #intruciones sobre el programa 
 
 echo ------------------------------------------------------------
-echo vasmos a iniciar con el progrma 
+echo para crear una caperta y archivo, ponga "(i)"
 echo ------------------------------------------------------------
-echo Para comenzar a crear un carpeta y archivo escriba ./init.sh
+echo Para eliminar un archivo use "(d)"
 echo ------------------------------------------------------------
-echo Para eleminar una carpeta o archivo escriba ./delete.sh 
+echo Para ayadir un archivo use "(a)" 
 echo ------------------------------------------------------------
 

@@ -1,10 +1,23 @@
 #! /bin/bash
 
-# Hay que poner otras funcionaliades dentro de este archivo
+./guide.sh # mostrando las funciones de cada comando
 
-: " 
- 1)Poder actualizar codigo desdes consola
- 2)Poder pasar un direccion url, y guardar los datos en un archivo, y ver el peso de esos datos
- "
+read -p "coloque que quiere hacer en esta seccion:" commands
 
-./scripts/file.sh #solo estamos iniciando con el archivo de crear carpeta 
+case $commands in 
+
+ i)
+  ./scripts/file.sh  
+ ;;
+
+d) 
+ ./scripts/delete.sh 
+ ;;
+ a) 
+ ./scripts/add_archivs.sh
+ ;;
+
+   *) 
+   echo no colocaste ninguna deccion
+ 
+ esac
