@@ -1,5 +1,6 @@
 #! /bin/bash
 
+
 read -p "name of archive:" archive 
 
 

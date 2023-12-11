@@ -12,8 +12,9 @@ echo entoces quieres usar control de versiones en este proyecto
 
 n)
 
-echo entoces no quieres usar control de versiones 
-
+echo -------------------------------------------------
+echo entoces no vamos a utilizar control de versiones 
+echo -------------------------------------------------
 ;;
 
 esac

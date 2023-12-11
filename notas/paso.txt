@@ -1,6 +1,0 @@
-"poder modificar un archivo desde la terminar"
-
-1) Debemos ver si el archivo existe en verdad 
-2) abrir con nano, por defecto
-
-

@@ -6,17 +6,19 @@ read -p "coloque que quiere hacer en esta seccion:" commands
 
 case $commands in 
 
- i)
+i)
   ./scripts/file.sh  
  ;;
 
 d) 
  ./scripts/delete.sh 
  ;;
- a) 
+a) 
  ./scripts/add_archivs.sh
  ;;
-
+m)
+ ./scripts/modefy.sh
+;;
    *) 
    echo no colocaste ninguna deccion
  

@@ -9,4 +9,5 @@ echo Para eliminar un archivo use "(d)"
 echo ------------------------------------------------------------
 echo Para ayadir un archivo use "(a)" 
 echo ------------------------------------------------------------
-
+echo para modificar un archivo use "(m)"
+echo ------------------------------------------------------------
